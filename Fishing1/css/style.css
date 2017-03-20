@@ -1,0 +1,280 @@
+		/*GENERAL BEGIN*/
+
+/*header begin*/
+*{
+	margin: 0;
+	padding: 0;
+
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font: 14px/1.66 Myriad Pro Bold; 
+
+}
+.header{
+	background: url(../img/headerBg_1.png) repeat-x;
+
+	}
+.wrapper{
+	width: 1050px;
+	margin: 0 0 0 150px;
+	
+}
+header .hdr-list li{
+float: left;
+}
+.basket{
+	padding: 12px 0px 12px 55px;
+	background: url(../img/korzina.png) no-repeat 0% 30%;
+	display: block;
+	color: #fff;
+	 font-family: Myriad Pro Italic;
+     font-style: italic;
+} 
+.description{
+	font-size: 18px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 14px 11px 0x 11px;
+}
+.logo1{
+	padding: 0 10px 0 30px;
+}
+.logo2{
+	padding: 0 20px 0 10px;
+}
+.info-block{
+	text-align: right;
+
+}
+.net-icons li{
+	float: right;
+	padding-left: 7px;
+}
+.net-icons li a{
+	height: 38px;
+	width: 38px;
+	display: block;
+	background: url(../img/sprite.png) no-repeat 0 0 ;
+	margin: 0 0 15px 0;
+}
+.net-icons li a.vk{
+	
+background-position: -44px 0;
+}
+.net-icons li a.you{
+background-position: -89px 0;
+}
+.registration li{
+	float: right;
+	margin-left: 6px;
+}
+.registration li a{
+	color: #fff;
+	text-decoration: underline;
+	font-size: 14px;
+}
+.registration li:first-child{
+	border-left: 1px solid #ffffff;
+	padding-left: 5px;
+}
+/*header end*/
+
+
+
+
+/*CLEARFIX*/
+header:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+/*nav begin*/
+.nav{
+	background: #1c1c1c;
+	}
+nav>a{
+	font-size: 18px;
+	color: #838383;
+    padding: 16px 40px 19px 40px;
+	display: block;
+	float: left;
+	box-shadow: 0px 3px 3px 0px #f7f7f7;
+	}
+nav>a:hover{
+	color: #ffffff;
+	background:#2a364e;
+	transition: .5s, background 1s;
+}
+
+
+nav:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+/*nav end*/
+
+
+
+/*aside begin*/
+.leftmenu {
+  height: 820px;
+   background: url(../img/bottomContentBg.png);
+
+}
+h2 {
+   font-size: 20px;
+    font-family: "Myriad Pro";
+  color: #1c1c1c;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: uppercase;
+  line-height: 1.5;
+  text-align: left;
+   }
+aside li a {
+	padding: 0px 0 0 35px;
+ 	font-size: 16px;
+  	font-family: "Myriad Pro";
+  	color: #1c1c1c;
+ 	font-weight: bold;
+  	line-height: 3;
+  	text-align: left;
+  
+}
+aside  {
+	 background: url(../img/bottomContentBg.png);
+	width: 300px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 150px;
+	text-transform: uppercase;
+}
+aside li>ul{
+	display: none;
+	position: absolute;
+	margin: -50px 0 0 280px;
+
+
+}
+aside ul>li:hover ul{
+	display: list-item;
+	background:#C4E0F5;
+
+}
+aside li>ul>li>a{
+	display: block;
+	text-align: center;
+	color: #161414;
+	padding: 5px;
+	height: 40px;
+	width: 150px;
+	font-size: 14px;
+	text-transform: none;
+
+}
+
+aside ul>li{
+	position: relative;
+}
+aside li{
+	border-bottom: 1px solid #e4d9da;
+}
+aside li:hover {
+	background:#C9E4F5;
+	box-shadow: 3px 3px 3px 3px #a5c1bf;
+}
+
+
+
+/*aside end*/
+
+/*mainpage begin*/
+.content{
+	 background: url(../img/bottomContentBg.png);
+	margin-top: 50px;
+	float: left;
+	width: 600px;
+	height:770px;
+   /* background: url(../img/fonеcontent.png) no-repeat;*/
+    text-align: center;
+    display: inline-block;
+}
+h3{
+	text-decoration: underline;
+	text-align: center;
+	margin-bottom: 20px;
+	font-family: "Myriad Pro";
+  	color: #1c1c1c;
+ 	font-weight: bold;
+}
+time{
+	float: left;
+	color: #1c1c1c;
+}
+
+/*mainpage end*/
+
+
+
+/*rightcol begin*/
+.rightcol{
+	float:left;
+	padding: 50px 50px 0 60px;
+
+}
+td {
+	padding: 50px 50px 0 25px;
+}
+.item{
+background:#ffffff;
+text-decoration:underline;
+color: #1c1c1c;
+}
+.katalog ul li{
+	float: left;
+	margin: 10px 10px 10px 10px;
+
+}
+.katalog a{
+	float: center;
+}
+.katalog td:hover {
+	
+}
+/*.tod{
+background: url(..//img/удочка1.png) no-repeat;
+float: center;
+
+}*/
+.katalog li :first-child{
+	
+}
+/*rightcol end*/
+
+/*footer main*/
+footer{
+	background: url(../img/headerBg_1.png) repeat-x;
+	height:80px;
+	padding: 0 0 20px 0;
+	clear: both;
+}
+
+
+
+
+/*footer end*/
+
+
+
+		/*GENERAL END*/ 
